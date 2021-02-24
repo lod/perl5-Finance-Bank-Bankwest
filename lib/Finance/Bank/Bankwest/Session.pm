@@ -220,10 +220,14 @@ date of the following Monday.
             fields => {
                 '__EVENTTARGET'
                     => '_ctl0:ContentButtonsLeft:btnExport',
+                '_ctl0:ContentButtonsLeft:ddlExportType'
+                    => 'CSV',
                 '_ctl0:ContentButtonsLeft:txtSelectedList'
-                    => '3~4~5~6~7',
+                    => '1~2~3~4~5~6~7~8',
                 '_ctl0:ContentMain:ddlAccount'
                     => $account,
+                '_ctl0:ContentMain:ddlRangeOptions'
+                    => 'CUSTOM',
                 '_ctl0:ContentMain:dpFromDate:txtDate'
                     => $from_date,
                 '_ctl0:ContentMain:dpToDate:txtDate'
